@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #014573;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #014573;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion:a {
+  color: #014573;
+ 
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .api-spacer-1{
+  display: none;
+}
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h2 style="margin-bottom:10px;"><br><br>API FAQ's</h2>
+<button class="accordion"><b>What programming languages do you support?</b></button>
+<div class="panel">
+  <p>We wrote libraries in JavaScript, PHP, and Ruby that you can find on our <a href="https://github.com">GitHub page</a>. Our community is working on libraries in Rust, Python, Swift, and more.</p>
+</div>
+
+<button class="accordion"><b>What volume can the Picture Map APIs handle?</b></button>
+<div class="panel">
+  <p>Any volume. We built Picture Map APIs on elastic infrastructure that can scale to millions of requests</p>
+</div>
+
+<button class="accordion"><b>How many calls are included in the free-tier Free Photos API?</b></button>
+<div class="panel">
+  <p>500 calls per day. If you need more requests please <a href="/help-center/submit-a-support-ticket/"><u>submit a support ticket</u></a> and we will try to acomodate your request. If you need 10,000+ calls per day we may have to charge a small bandwith fee</a></p>
+</div>
+
+<button class="accordion"><b>Can developers dynamically resize, crop, or watermark images using the APIs?</b></button>
+<div class="panel">
+  <p>Yes, developers can dynamically resize, crop, and watermark Picture Map images when calling via the APIs. More transformations are coming soon like filters, AI smart crop, and image tagging. </a></p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
