@@ -1,2 +1,2 @@
-# Job_Search
-a repo for showing off my software development skills to potential employers
+# Hello Future Employer
+Here is a repo that shows off my software development skills
