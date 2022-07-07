@@ -1,3 +1,8 @@
+<!-- PictureMap.com/api -->
+<!-- Morgan Mays -->
+<!-- July 7, 2022 -->
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -93,11 +98,6 @@
   font-size: 22px;
   } 
 
-.API-background-img {
-    background:url(http://picturemap.com/wp-content/uploads/2021/08/Background.png);
-    background-repeat:no-repeat;
-}
-
 .site-content {
   background-color: #01457310;
 }
@@ -125,16 +125,16 @@
   width: 90%;
 }
 
-/* The Close Button */
-.close {
+/* The api-modal-close Button */
+.api-modal-close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.api-modal-close:hover,
+.api-modal-close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -210,7 +210,7 @@
 
 <div id="myAPIModal" class="api-modal">
   <div class="api-modal-content">
-      <span class="close"></span>
+      <span class="api-modal-close"></span>
        <span>[wpforms id="4035" title="true"]</span>
   </div>
 </div>
@@ -225,7 +225,7 @@
   var btn2 = document.getElementById("myAPIBtn2");
   
   // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
+  var span = document.getElementsByClassName("api-modal-close")[0];
   
   // When the user clicks the button, open the modal 
   btn.onclick = function() {
