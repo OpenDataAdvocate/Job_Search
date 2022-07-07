@@ -1,7 +1,5 @@
 <!-- PictureMap.com/api -->
 <!-- Morgan Mays -->
-<!-- July 7, 2022 -->
-
 
 <!DOCTYPE html>
 <html>
@@ -44,7 +42,6 @@
   font-weight: 800;
   margin-top: 3px;
 }
-
 
 .api-table li {
   padding: 4px;
@@ -168,7 +165,6 @@
 </style>
 </head>
 <body>
-
 
 <!-- Free Photos API -->
 <div class="api-pg-column-1">
