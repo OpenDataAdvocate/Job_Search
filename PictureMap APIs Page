@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.column {
+.api-pg-column-1 {
   float: left;
   width: 45%;
   border: 2px solid black;
@@ -16,7 +16,7 @@
   margin-left: 40px;
 }
 
-.column2 {
+.api-pg-column-2 {
   float: left;
   width: 45%;
   border: 2px solid black;
@@ -149,13 +149,13 @@
 
 /* What to do on Mobile */
 @media only screen and (max-width: 600px) {
-  .column {
+  .api-pg-column-1 {
   width: 100%;
   margin-right: 0px;
   margin-left: 0px;
 }
 
-.column2 {
+.api-pg-column-2 {
   float: left;
   width: 100%;
   border: 2px solid black;
@@ -171,7 +171,7 @@
 
 
 <!-- Free Photos API -->
-<div class="column">
+<div class="api-pg-column-1">
   <ul class="api-table">
     <li class="api-table-row-1" style="background-color:#ffffff"><h1 style="color:#000000;margin-bottom: -5px;margin-top: 10px;">FREE API</h1></li>
     <li class="api-table-row-1" style="background-color:#ffffff"><strong style="font-size:150%;font-weight:300;color:#000000;margin-top:20px;margin-bottom:20px;">Free<br></strong>
@@ -190,7 +190,7 @@
 </div>
 
 <!-- All Photos API -->
-<div class="column2">
+<div class="api-pg-column-2">
     <ul class="api-table">
         <li class="api-table-row-1" style="background-color:#ffffff"><h1 style="color:#000000;margin-bottom: -5px;margin-top: 10px;">PAID API</h1></li>
         <li class="api-table-row-1" style="background-color:#ffffff"><strong style="font-size:150%;font-weight:300;color:#000000;margin-top:20px;margin-bottom:20px;">Pricing Based on Volume<br></strong>
