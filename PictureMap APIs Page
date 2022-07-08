@@ -1,5 +1,5 @@
 <!-- PictureMap.com/api -->
-<!-- Morgan Mays -->
+<!-- Morgan Mays --> 
 
 <!DOCTYPE html>
 <html>
@@ -173,8 +173,8 @@
     <li class="api-table-row-1" style="background-color:#ffffff"><strong style="font-size:150%;font-weight:300;color:#000000;margin-top:20px;margin-bottom:20px;">Free<br></strong>
       <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 2px;"><u>Volume</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 5px;">500 calls per day free tier</h4></li>
       <li class="api-table-row-2" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 4px;"><u>Languages</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 8px;">JS, PHP, Ruby</h4></li>
-      <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><u>Access to All Photos</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 0px;"><img src="http://picturemap.com/wp-content/uploads/2021/05/checkmark_icon.svg"></h4></li>
-      <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><u>Dynamically Resize Photos</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 5px;"><img src="http://picturemap.com/wp-content/uploads/2021/05/checkmark_icon.svg"></h4></li>
+      <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><u>Access to All Photos</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 0px;"><img src="/wp-content/uploads/2021/05/checkmark_icon.svg"></h4></li>
+      <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><u>Dynamically Resize Photos</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 5px;"><img src="/wp-content/uploads/2021/05/checkmark_icon.svg"></h4></li>
       <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><button class="button1" style="border-radius: 25px;margin-bottom: 15px;" id="myAPIBtn">Request Access</button></h4></li>
   </ul>
 <div>
@@ -192,8 +192,8 @@
         <li class="api-table-row-1" style="background-color:#ffffff"><strong style="font-size:150%;font-weight:300;color:#000000;margin-top:20px;margin-bottom:20px;">Pricing Based on Volume<br></strong>
         <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 2px;"><u>Volume</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 5px;">Unlimited</h4></li>
         <li class="api-table-row-2" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 4px;"><u>Languages</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 8px;">JS, PHP, Ruby</h4></li>
-        <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><u>Access to All Photos</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 0px;"><img src="http://picturemap.com/wp-content/uploads/2021/05/checkmark_icon.svg"></h4></li>
-        <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><u>Dynamically Resize Photos</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 5px;"><img src="http://picturemap.com/wp-content/uploads/2021/05/checkmark_icon.svg"></h4></li>
+        <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><u>Access to All Photos</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 0px;"><img src="/wp-content/uploads/2021/05/checkmark_icon.svg"></h4></li>
+        <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><u>Dynamically Resize Photos</u></h4><h4 style="color:#000000;font-weight:400;line-height: 50%;margin-bottom: 5px;"><img src="/wp-content/uploads/2021/05/checkmark_icon.svg"></h4></li>
         <li class="api-table-row-1" style="background-color:#ffffff"><h4 style="color:#000000;margin-bottom: 0px;"><button class="button2" style="border-radius: 25px;margin-bottom: 15px;" id="myAPIBtn2">Request Access</button></h4></li>    
     </ul>
 <div>
