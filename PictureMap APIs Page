@@ -1,5 +1,5 @@
 <!-- PictureMap.com/api -->
-<!-- Morgan Mays --> 
+<!-- Morgan Mays -->
 
 <!DOCTYPE html>
 <html>
@@ -166,7 +166,7 @@
 </head>
 <body>
 
-<!-- Free Photos API -->
+<!-- Free Photos API, I had to declare CSS properties due to a wordpress theme conflict -->
 <div class="api-pg-column-1">
   <ul class="api-table">
     <li class="api-table-row-1" style="background-color:#ffffff"><h1 style="color:#000000;margin-bottom: -5px;margin-top: 10px;">FREE API</h1></li>
@@ -185,7 +185,7 @@
 </div>
 </div>
 
-<!-- All Photos API -->
+<!-- All Photos API, I had to declare CSS properties due to a wordpress theme conflict -->
 <div class="api-pg-column-2">
     <ul class="api-table">
         <li class="api-table-row-1" style="background-color:#ffffff"><h1 style="color:#000000;margin-bottom: -5px;margin-top: 10px;">PAID API</h1></li>
@@ -204,6 +204,7 @@
 </div>
 </div>
 
+<!-- Modal with online form embedded, Uses WPForms wordpress plug-in -->
 <div id="myAPIModal" class="api-modal">
   <div class="api-modal-content">
       <span class="api-modal-close"></span>
@@ -212,6 +213,7 @@
 </div>
 </div>
 
+<!-- Script that makes the modal popup when the "Request Access" button is clicked -->
 <script>
   // Get the modal
   var modal = document.getElementById("myAPIModal");
